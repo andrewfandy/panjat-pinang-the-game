@@ -1,2 +1,2 @@
 const gameWindow = document.getElementById("game-window");
-// const gameWindow
+const startButton = document.getElementsByClassName("start-btn");
