@@ -1,33 +1,33 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;700;800&display=swap");
 :root {
-    --primary-color : #016997;
-    --secondary-color : #FDC300;
-    --third-color : #76C8FB;
-    --other-color : #FF8AB0;
+    --primary-color: #016997;
+    --secondary-color: #fdc300;
+    --third-color: #76c8fb;
+    --other-color: #ff8ab0;
     font-size: 18px;
 }
 
 * {
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     margin: 0 auto;
     padding: 0;
 }
-
+    
 .game-container {
     background-color: pink;
     width: 100vw;
     max-width: 100vw;
-    height: 100vh;
-    max-height: 100vh;
+    height: 500vh;
+}
+#game-window {
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-#game-window {
     background-color: red;
+    width: 100%;
+    height: 100%;
 }
 .btn {
     padding: 1rem 2rem;
@@ -39,13 +39,22 @@
 .btn:hover {
     background-color: var(--secondary-color);
 }
-.btn.start-btn {
-    position: absolute;
-    bottom: 100px;
 
+.btn.start-btn {
+position: absolute;
+bottom: 100px;
 }
 
 
+#tiang {
+    position: absolute;
+    bottom: 0;
+    right: 10vw;
+    display: block;
+    height: 500vh;
+    width: 20vw;
+    background-color: pink;
+}
 /* @media screen  {
     
 } */
