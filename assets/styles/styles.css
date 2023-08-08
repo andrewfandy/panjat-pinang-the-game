@@ -13,7 +13,10 @@
     margin: 0 auto;
     padding: 0;
 }
-    
+
+body {
+    /* overflow: hidden; */
+}
 .game-container {
     background-color: pink;
     width: 100vw;
@@ -41,8 +44,9 @@
 }
 
 .btn.start-btn {
-position: absolute;
-bottom: 100px;
+    /* display: block; */
+    position: absolute;
+    bottom: 100px;
 }
 
 
@@ -55,6 +59,12 @@ bottom: 100px;
     width: 20vw;
     background-color: pink;
 }
-/* @media screen  {
-    
-} */
+
+#player-character {
+    position: absolute;
+    bottom: 50px;
+    right: 450px;
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+}
